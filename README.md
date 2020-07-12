@@ -27,11 +27,11 @@ After downloading changes the 568 and 631 lines of wavelet.py file present in th
 
 Line 568:
 
-dat = np.loadtxt('”your home directory”/.pycwt/kl.txt')
+_dat = np.loadtxt('”your home directory”/.pycwt/kl.txt')_
 
 Line 631:
 
-np.savetxt('”your home directory”/.pycwt/kl.txt', sig95)
+_np.savetxt('”your home directory”/.pycwt/kl.txt', sig95)_
 
 Install PyCWT by running the following command 
 ```
@@ -41,11 +41,11 @@ Before you run Small_GTPases_WC.py, you must edit the lines 36 to 44 of the code
 
 Line 135:
 
-os.rename(sim_file , '”your home directory”/.pycwt/kl.txt')
+_os.rename(sim_file , '”your home directory”/.pycwt/kl.txt')_
 
 Line 215:
 
-os.rename('”your home directory”/.pycwt/kl.txt', sim_file )
+_os.rename('”your home directory”/.pycwt/kl.txt', sim_file )_
 
 
 ## To run:
