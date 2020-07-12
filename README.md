@@ -63,9 +63,9 @@ Successful running of the program will generate two files; 1an0.txt and 1an0.csv
 
 After generating CSV files for the two structures to be analyzed you have to run the second code for wavelet coherence analysis.
 Next to run the Small_GTPases_WC.py script:
-
+```
 ./Small_GTPases_WC.py first_pdb_file_name second_pdb_file_name
-
+```
 Example:
 ```
 ./Small_GTPases_WC.py 1an0 2qrz
