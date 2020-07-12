@@ -74,6 +74,7 @@ Example:
 ```
 Successful running of the script will generate two plots (png files), one showing the RCOs of both the structures and wavelet coherence plot; the other shows the resultant phase vectors of regions of interest (in this case SWI, SWII and P-loop). 
 
-
+## Disclaimer:
+This software is released under a BSD-style open source license. Please read the license file for further information. This routine is provided as is without any express or implied warranties whatsoever.
 
 
