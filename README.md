@@ -11,6 +11,7 @@ To run:
 ./PDB2RCO my.pdb chain_ID starting_residue end_residue
 
 Example:
+
 ./PDB2RCO 1an0.pdb A 5 179
 
 Successful running of the program will generate two files; 1an0.txt and 1an0.csv
