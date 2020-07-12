@@ -15,7 +15,7 @@ You can install NumPy, SciPy, tqdm and matplotlib using pip or conda as
 ```
 pip install numpy scipy tqdm matplotlib
 ```
-Before you install PyCWT make a director “.pycwt” in your home directory
+Before you install PyCWT make a director “.pycwt” in your home directory as
 ```
 mkdir ~/.pycwt
  ```
