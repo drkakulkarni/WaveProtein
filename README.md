@@ -29,7 +29,7 @@ After downloading changes the 568 and 631 lines of ```wavelet.py``` file present
 
 Line 568:
 ```
-dat = np.loadtxt('-”your home directory”-/.pycwt/kl.txt')
+dat = np.loadtxt('_”your home directory”_/.pycwt/kl.txt')
 ```
 Line 631:
 
