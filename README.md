@@ -48,9 +48,11 @@ python setup.py install
 Before you run Small_GTPases_WC.py, you must edit the lines 36 to 44 of the code as stated in the code. Change lines 135 & 215 as
 
 Line 135:
+
 os.rename(sim_file , '”your home directory”/.pycwt/kl.txt')
 
 Line 215:
+
 os.rename('”your home directory”/.pycwt/kl.txt', sim_file )
 
 Next to run the Small_GTPases_WC.py script:
