@@ -25,12 +25,12 @@ mkdir ~/.pycwt
  ```
 PyCWT can be download from https://github.com/regeirk/pycwt
 
-After downloading changes the 568 and 631 lines of wavelet.py file present in the pycwt directory as 
+After downloading changes the 568 and 631 lines of ```wavelet.py``` file present in the ```pycwt``` directory as 
 
 Line 568:
-
-_dat = np.loadtxt('”your home directory”/.pycwt/kl.txt')_
-
+```
+dat = np.loadtxt('-”your home directory”-/.pycwt/kl.txt')
+```
 Line 631:
 
 _np.savetxt('”your home directory”/.pycwt/kl.txt', sig95)_
