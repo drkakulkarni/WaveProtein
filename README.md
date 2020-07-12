@@ -29,12 +29,12 @@ After downloading changes the 568 and 631 lines of ```wavelet.py``` file present
 
 Line 568:
 ```
-dat = np.loadtxt('_”your home directory”_/.pycwt/kl.txt')
+dat = np.loadtxt(' ”your home directory”/.pycwt/kl.txt')
 ```
 Line 631:
-
-_np.savetxt('”your home directory”/.pycwt/kl.txt', sig95)_
-
+```
+_np.savetxt(' ”your home directory”/.pycwt/kl.txt', sig95)_
+```
 Install PyCWT by running the following command in the ```pycwt``` directory
 ```
 python setup.py install
@@ -42,13 +42,13 @@ python setup.py install
 Before you run Small_GTPases_WC.py, you must edit the lines 36 to 44 of the code as stated in the code. Change lines 135 & 215 as
 
 Line 135:
-
+```
 _os.rename(sim_file , '”your home directory”/.pycwt/kl.txt')_
-
+```
 Line 215:
-
-_os.rename('”your home directory”/.pycwt/kl.txt', sim_file )_
-
+```
+_os.rename(' ”your home directory”/.pycwt/kl.txt', sim_file )_
+```
 
 ## To run:
 First you need to generate the RCO file using PDB2RCO program.
