@@ -33,7 +33,7 @@ dat = np.loadtxt(' ”your home directory”/.pycwt/kl.txt')
 ```
 Line 631:
 ```
-_np.savetxt(' ”your home directory”/.pycwt/kl.txt', sig95)_
+np.savetxt(' ”your home directory”/.pycwt/kl.txt', sig95)
 ```
 Install PyCWT by running the following command in the ```pycwt``` directory
 ```
@@ -43,11 +43,11 @@ Before you run Small_GTPases_WC.py, you must edit the lines 36 to 44 of the code
 
 Line 135:
 ```
-_os.rename(sim_file , '”your home directory”/.pycwt/kl.txt')_
+os.rename(sim_file , '”your home directory”/.pycwt/kl.txt')
 ```
 Line 215:
 ```
-_os.rename(' ”your home directory”/.pycwt/kl.txt', sim_file )_
+os.rename(' ”your home directory”/.pycwt/kl.txt', sim_file )
 ```
 
 ## To run:
