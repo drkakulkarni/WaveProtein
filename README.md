@@ -4,6 +4,8 @@ This tool can be extended for the analysis of other protein structures.
 
 The package contains two codes; “PDB2RCO.c” and “Small_GTPases_WC.py”
 
+The codes can be downloaded from https://github.com/drkakulkarni/WaveProtein
+
 ### Prerequisites
 
 PDB2RCO is a c code to convert 3D structures of protein in pdb file format to a 1D RCO signal. First you need to compile the program using following command
