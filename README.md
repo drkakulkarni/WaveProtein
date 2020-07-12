@@ -2,22 +2,12 @@
 Wavelet based tool to analyze propagation of conformational changes across the polypeptide chain in Small GTPase structures. This tool can be extended for the analysis of other protein structures.
 The package contains two codes; “PDB2RCO.c” and “Small_GTPases_WC.py”
 
+### Prerequisites
+
 PDB2RCO is a c code to convert 3D structures of protein in pdb file format to a 1D RCO signal. First you need to compile the program using following command
 ```
 gcc –o PDB2RCO PRB2RCO.c –lm
 ```
-To run:
-```
-./PDB2RCO my.pdb chain_ID starting_residue end_residue
-```
-Example:
-```
-./PDB2RCO 1an0.pdb A 5 179
-```
-
-Successful running of the program will generate two files; 1an0.txt and 1an0.csv
-
-After generating CSV files for the two structures to be analyzed you have to run the second code for wavelet coherence analysis.
 
 Small_GTPases_WC.py requires PyCWT, NumPy, SciPy, tqdm and matplotlib.
 
@@ -55,6 +45,21 @@ Line 215:
 
 os.rename('”your home directory”/.pycwt/kl.txt', sim_file )
 
+
+## To run:
+First you need to generate the RCO file using PDB2RCO program.
+
+```
+./PDB2RCO my.pdb chain_ID starting_residue end_residue
+```
+Example:
+```
+./PDB2RCO 1an0.pdb A 5 179
+```
+
+Successful running of the program will generate two files; 1an0.txt and 1an0.csv
+
+After generating CSV files for the two structures to be analyzed you have to run the second code for wavelet coherence analysis.
 Next to run the Small_GTPases_WC.py script:
 
 ./Small_GTPases_WC.py first_pdb_file_name second_pdb_file_name
