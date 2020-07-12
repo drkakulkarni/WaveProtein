@@ -35,7 +35,7 @@ Line 631:
 
 _np.savetxt('”your home directory”/.pycwt/kl.txt', sig95)_
 
-Install PyCWT by running the following command 
+Install PyCWT by running the following command in the ```pycwt``` directory
 ```
 python setup.py install
 ```
