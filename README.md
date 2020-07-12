@@ -9,9 +9,9 @@ PDB2RCO is a c code to convert 3D structures of protein in pdb file format to a 
 gcc –o PDB2RCO PRB2RCO.c –lm
 ```
 
-Small_GTPases_WC.py requires PyCWT, NumPy, SciPy, tqdm and matplotlib.
+Small_GTPases_WC.py requires ```PyCWT```, ```NumPy```, ```SciPy```, ```tqdm``` and ```matplotlib```.
 
-You can install NumPy, SciPy, tqdm and matplotlib using pip or conda
+You can install NumPy, SciPy, tqdm and matplotlib using pip or conda as
 ```
 pip install numpy scipy tqdm matplotlib
 ```
