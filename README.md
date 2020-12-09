@@ -2,7 +2,7 @@
 **WaveProtein** is a Wavelet transformation based tool to analyze propagation of conformational changes across the polypeptide chain in Small GTPase structures. 
 This tool can be extended for the analysis of other protein structures.
 
-The package contains two codes; “PDB2RCO.c” and “Small_GTPases_WC.py”
+The package contains two codes; “PDB2RCO.c” and “WC_new_cdc42.py”
 
 The codes can be downloaded from https://github.com/drkakulkarni/WaveProtein
 
