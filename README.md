@@ -39,13 +39,13 @@ Install PyCWT by running the following command in the ```pycwt``` directory
 ```
 python setup.py install
 ```
-Before you run Small_GTPases_WC.py, you must edit the lines 36 to 44 of the code as stated in the code. Change lines 135 & 215 as
+Before you run WC_new_cdc42.py, you must edit the lines from 41 to 49 of the code as stated in the code. Change lines 145 & 231 as
 
-Line 135:
+Line 145:
 ```
 os.rename(sim_file , '”your home directory”/.pycwt/kl.txt')
 ```
-Line 215:
+Line 231:
 ```
 os.rename(' ”your home directory”/.pycwt/kl.txt', sim_file )
 ```
@@ -66,11 +66,11 @@ Successful running of the program will generate two files; 1an0.txt and 1an0.csv
 After generating CSV files for the two structures to be analyzed you have to run the second code for wavelet coherence analysis.
 Next to run the Small_GTPases_WC.py script:
 ```
-./Small_GTPases_WC.py first_pdb_file_name second_pdb_file_name
+./WC_new_cdc42.py first_pdb_file_name second_pdb_file_name
 ```
 Example:
 ```
-./Small_GTPases_WC.py 1an0 2qrz
+./WC_new_cdc42.py 1an0 2qrz
 ```
 Successful running of the script will generate two plots (png files), one showing the RCOs of both the structures and wavelet coherence plot; the other shows the resultant phase vectors of regions of interest (in this case SWI, SWII and P-loop). 
 
